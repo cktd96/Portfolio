@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://st2.depositphotos.com/3867453/11100/v/950/depositphotos_111004088-stock-illustration-letter-m-logo-icon-design.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Shivam Tripathi</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="Blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link" id="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="Contact">Contact</a>
+                </li>
+                <li>
+                    <a><button class="btn1" id="btn" onclick="audio.play()"><img  class="Img" src="https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png" alt="" srcset=""></button></a>
+                </li>
+                <!-- <button class="btn1" id="btn"><img  class="Img" src="https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png" alt="" srcset=""></button> -->
+            </ul>
+            <div class="hamburger" id="hame">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="leftContainer" class="left__container">
+            <h1 class="Hello">Hello!</h1>
+            <h1 class="myName">I'm <span class="name"> Shivam</span></h1>
+            <h2>  Happy Coding <span id="Happy" class="hppy"  onmouseover="chanhgeEmoji()" onmouseleave="chanhgeBackEmoji()"> 🙂 </span> </h2>
+            <button class="btn2"><a href="file:///D:/Web_developmwnt/Portfolio_web/cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></button>
+        </div>
+        <div class="right__container">
+            <img src="Myimg.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
